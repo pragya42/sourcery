@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Sourcery</title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <h1 class="w3-center">Sourcery</h1>
+        <div class="w3-border w3-theme-black">
+            <div class="w3-bar w3-theme-black">
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Films')">Films</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Books')">Books</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'Trivia')">Trivia</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'ml')">Machine Learning</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'datasci')">Data Science</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'softwaredevp')">Software Devp</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'photography')">Photography</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'design')">Graphic Design</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'food')">Food</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'art')">Art</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'history')">History</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'news')">Newspaper Editorials</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'music')">Music</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'fashion')">Fashion</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'ted')">Ted</button>
+                <button class="w3-bar-item w3-button testbtn w3-padding-16" onclick="openCity(event,'misc')">Miscellaneous</button>
+            </div>
+            <div id="Films" class="w3-container city w3-animate-opacity">
+                <h3>Films</h3>
+                <button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 1</button>
+                <div id="Demo1" class="w3-hide">
+                    <div class="w3-container">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u
+                             llamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                    </div>
+                </div>
+                <button onclick="myAccFunc('Demo2')" class="w3-padding-16 w3-theme w3-button w3-block w3-left-align">Open Section 2</button>
+                <div id="Demo2" class="w3-hide">
+                    <a href="#" class="w3-button w3-block w3-left-align">Link 1</a>
+                    <a href="#" class="w3-button w3-block w3-left-align">Link 2</a>
+                </div>
+                <h5><a href="#">Video Essays Youtube Playlist </a></h5>
+                <h5><a href="#">Articles </a></h5>
+                <h5><a href="#">Video Essays Youtube Playlist </a></h5>
+            </div>
+            <div id="Books" class="w3-container city w3-animate-opacity">
+                <h2>Films</h2>
+            </div>
+            <div id="Trivia" class="w3-container city w3-animate-opacity">
+                <h2>Trivia/h2>
+            </div>
+            <div id="ml" class="w3-container city w3-animate-opacity">
+                <h2>Trivia/h2>
+            </div>
+            <div id="datasci" class="w3-container city w3-animate-opacity">
+                <h2>Trivia/h2>
+            </div>
+            <div id="softwaredevp" class="w3-container city w3-animate-opacity">
+                <h2>Trivia/h2>
+            </div>
+            <div id="photography" class="w3-container city w3-animate-opacity">
+                <h2>Trivia/h2>
+            </div>
+            <div id="design" class="w3-container city w3-animate-opacity">
+                <h2>Trivia/h2>
+            </div>
+            <div id="food" class="w3-container city w3-animate-opacity">
+                <h2>Trivia/h2>
+            </div>
+            <div id="fashion" class="w3-container city w3-animate-opacity">
+                <h2>Trivia/h2>
+            </div>
+            <div id="misc" class="w3-container city w3-animate-opacity">
+                <h2>Trivia/h2>
+            </div>
+            <div id="ted" class="w3-container city w3-animate-opacity">
+                <h2>Trivia/h2>
+            </div>
+            <div id="music" class="w3-container city w3-animate-opacity">
+                <h2>Trivia/h2>
+            </div>
+            <div id="news" class="w3-container city w3-animate-opacity">
+                <h2>Trivia/h2>
+            </div>
+            <div id="history" class="w3-container city w3-animate-opacity">
+                <h2>Trivia/h2>
+            </div>
+            <div id="art" class="w3-container city w3-animate-opacity">
+                <h2>Trivia/h2>
+                </div>
+        </div>
+        
+        
+        <!--javascript mai daalo ise-->
+        <script>
+            // Side navigation
+            function w3_open() {
+            var x = document.getElementById("mySidebar");
+            x.style.width = "100%";
+            x.style.fontSize = "40px";
+            x.style.paddingTop = "10%";
+      x.style.display = "block";
+    }
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    
+    // Tabs
+    function openCity(evt, cityName) {
+      var i;
+      var x = document.getElementsByClassName("city");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      var activebtn = document.getElementsByClassName("testbtn");
+      for (i = 0; i < x.length; i++) {
+        activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " w3-dark-grey";
+    }
+    
+    var mybtn = document.getElementsByClassName("testbtn")[0];
+    mybtn.click();
+    </script>
+    </body>
+</html>
